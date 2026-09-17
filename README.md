@@ -131,3 +131,16 @@ The application can be tested directly through the IntelliJ console.
   - Average Resolution Time
   - Average Customer Rating
   - Generate Full Report
+
+## Srcreenshots
+### 1.
+<img width="1256" height="860" alt="Screenshot 2026-09-17 125620" src="https://github.com/user-attachments/assets/6f8eda38-67fe-4e33-ac4f-966c11c705e6" />
+
+### 2.
+<img width="816" height="897" alt="Screenshot 2026-09-17 125636" src="https://github.com/user-attachments/assets/25a4fe63-08f2-4d20-9722-afeb41e02062" />
+
+### 3.
+<img width="755" height="872" alt="Screenshot 2026-09-17 170625" src="https://github.com/user-attachments/assets/cc3f0bb1-d5af-4a15-867e-28114b17e208" />
+
+### 4.
+<img width="706" height="872" alt="Screenshot 2026-09-17 170649" src="https://github.com/user-attachments/assets/7da5ff22-41fe-4f51-89f8-2b9a7716c193" />
