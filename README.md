@@ -16,7 +16,6 @@ This module handles basic customer and complaint operations.
 - Select a predefined complaint category and issue.
 - View all complaints.
 - Search complaints using Complaint ID.
-- Update complaint status.
 - Process complaints.
 
 ### 2. Complaint Processing
@@ -103,23 +102,14 @@ The application can be tested directly through the IntelliJ console.
 - Verify that the complaint status changes to In Progress.
 - Verify the assigned priority.
   
-**Test 4: Update Complaint Status**
-- Select Update Complaint Status.
-- Enter the Complaint ID.
-- Select the required status:
-  - Pending
-  - In Progress
-  - Resolved
-- Verify the updated complaint using View Complaints.
-  
-**Test 5: Customer Feedback**
+**Test 4: Customer Feedback**
 - Resolve a complaint.
 - Enter the resolution time.
 - Enter a customer rating between 1 and 5.
 - Enter feedback comments.
 - Check Analytics & Reports to verify the average customer rating.
   
-**Test 6: Analytics**
+**Test 5: Analytics**
 - Add multiple customers and complaints.
 - Process and resolve some complaints.
 - Open Analytics & Reports.
