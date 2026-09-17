@@ -1,11 +1,10 @@
 # Project Statement
 
 ## 1. Problem Statement
-Customer service systems often receive a large number of complaints and feedback from customers. Managing these complaints manually can make it difficult to organize customer information, track complaint status, prioritize important issues and understand overall customer satisfaction.
-The **Customer Feedback & Complaint Analytics System** aims to provide a simple Java-based solution for managing customer complaints and feedback. The system allows users to register complaints, categorize them using predefined issues, process complaints based on their category, update their status, collect customer ratings, and generate basic analytics and reports.
+Customer service systems often receive a large number of complaints and feedback from customers. Managing these complaints manually can make it difficult to organize customer information, track complaint status and prioritizizing important issues .
+The **Customer Feedback & Complaint Analytics System** aims to provide a simple Java-based solution for managing customer complaints and feedback. The system allows users to register complaints, categorize them using predefined issues, process complaints based on their category, collect customer ratings and generate basic analytics and reports.
 
 ---
-
 ## 2. Scope of the Project
 The project focuses on developing a **console-based Java application** for basic customer complaint and feedback management.
 The scope includes:
@@ -14,7 +13,6 @@ The scope includes:
 - Categorizing complaints using predefined categories and issues.
 - Processing complaints according to their category.
 - Assigning complaint priority.
-- Updating complaint status.
 - Recording customer feedback and ratings.
 - Calculating basic complaint and feedback statistics.
 - Generating a summary report.
@@ -28,10 +26,10 @@ The system is intended for users who need a simple way to manage and analyze cus
 
 ### Primary Users
 - **Customer Service Representatives**  
-  Can register, process, update, and track customer complaints.
+  Can register, process, update and track customer complaints.
 
 - **Customer Service Supervisors**  
-  Can review complaint statistics, priorities, statuses, and customer ratings.
+  Can review complaint statistics, priorities, statuses and customer ratings.
 
 ### Academic Users
 - **Students and Instructors**  
@@ -56,7 +54,6 @@ The system is intended for users who need a simple way to manage and analyze cus
 - Process complaints based on their category.
 - Assign High or Normal priority.
 - Use category-specific complaint processors.
-- Update complaints to In Progress during processing.
 
 ### Customer Feedback
 - Record customer ratings from 1 to 5.
