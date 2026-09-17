@@ -51,23 +51,6 @@ This module provides basic statistics about complaints and customer feedback.The
 - **Git** – Version control.
 - **GitHub** – Source code repository.
 
-## Java Concepts used
-The project focuses on fundamental Java and OOP concepts, including:
-- Classes and Objects
-- Encapsulation
-- Constructors
-- Inheritance
-- Abstraction
-- Polymorphism
-- Method Overriding
-- ArrayList
-- HashMap
-- Exception Handling
-- Conditional Statements
-- Loops
-- Switch Statements
-- Input Validation
-
 ## Installation and Setup
 Prerequisites
 Make sure the following are installed:
@@ -96,3 +79,55 @@ The application is a console-based Java application.To run the project:
 - Open Main.java in IntelliJ IDEA.
 - Click the green Run button next to the main() method.
 - The main menu will appear in the console.
+
+## Testing Instructions
+The application can be tested directly through the IntelliJ console.
+**Test 1: Add Customer**
+- Select Customer Management.
+- Select Add Customer.
+- Enter a Customer ID, name, email, and phone number.
+- Select View Customers to verify that the customer was added.
+
+**Test 2: Register Complaint**
+- Select Complaint Management.
+- Select Register Complaint.
+- Enter a valid Customer ID.
+- Select a complaint category.
+- Select one of the predefined issues.
+- Verify the complaint using View Complaints.
+  
+**Test 3: Process Complaint**
+- Select Process Complaint.
+- Enter a valid Complaint ID.
+- The system selects the appropriate processor based on the complaint category.
+- Verify that the complaint status changes to In Progress.
+- Verify the assigned priority.
+  
+**Test 4: Update Complaint Status**
+- Select Update Complaint Status.
+- Enter the Complaint ID.
+- Select the required status:
+  - Pending
+  - In Progress
+  - Resolved
+- Verify the updated complaint using View Complaints.
+  
+**Test 5: Customer Feedback**
+- Resolve a complaint.
+- Enter the resolution time.
+- Enter a customer rating between 1 and 5.
+- Enter feedback comments.
+- Check Analytics & Reports to verify the average customer rating.
+  
+**Test 6: Analytics**
+- Add multiple customers and complaints.
+- Process and resolve some complaints.
+- Open Analytics & Reports.
+- Test:
+  - Total Complaints
+  - Complaint Status
+  - Complaints by Category
+  - Complaint Priority
+  - Average Resolution Time
+  - Average Customer Rating
+  - Generate Full Report
