@@ -134,7 +134,7 @@ The application can be tested directly through the IntelliJ console.
 
 ## Srcreenshots
 ### 1.
-<img width="1256" height="860" alt="Screenshot 2026-09-17 125620" src="https://github.com/user-attachments/assets/6f8eda38-67fe-4e33-ac4f-966c11c705e6" />
+<img width="1245" height="820" alt="Screenshot 2026-09-17 125620" src="https://github.com/user-attachments/assets/6f8eda38-67fe-4e33-ac4f-966c11c705e6" />
 
 ### 2.
 <img width="816" height="897" alt="Screenshot 2026-09-17 125636" src="https://github.com/user-attachments/assets/25a4fe63-08f2-4d20-9722-afeb41e02062" />
