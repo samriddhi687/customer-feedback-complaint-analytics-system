@@ -1,6 +1,5 @@
 # Customer-feedback-complaint-analytics-system
-The Customer Feedback & Complaint Analytics System is a Java-based console application designed to manage customer complaints, process them based on predefined categories, and generate useful analytics and reports.
-The project demonstrates core Java programming and Object-Oriented Programming (OOP) concepts through a simple and practical customer service management system.
+The Customer Feedback & Complaint Analytics System is a Java-based console application designed to manage customer complaints, process them based on predefined categories, and generate useful analytics and reports. The project demonstrates core Java programming and Object-Oriented Programming (OOP)concepts through a simple & practical customer service management system.
 
 ## Features
 ### 1. Customer & Complaint Management
