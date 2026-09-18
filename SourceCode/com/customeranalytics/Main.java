@@ -31,7 +31,7 @@ public class Main {
             displayMenu();  
             try {
                 System.out.print("Enter your choice: ");
-                int choice = Integer.parseInt(scanner.nextLine());
+                int choice = Integer.parseInt(sc.nextLine());
                 switch (choice) {
                     case 1:
                         customerMenu();
@@ -74,7 +74,7 @@ public class Main {
             System.out.println("4. Back");
             System.out.print("Enter your choice: ");
             try {
-                int choice = Integer.parseInt(scanner.nextLine());
+                int choice = Integer.parseInt(sc.nextLine());
                 switch (choice) {
                     case 1:
                         addCustomer();
@@ -113,7 +113,7 @@ public class Main {
             String email = sc.nextLine();
             
             System.out.print("Enter phone number: ");
-            String phone = scanner.nextLine();
+            String phone = sc.nextLine();
 
             Customer customer = new Customer(customerId,name,email,phone);
             customerService.addCustomer(customer);
@@ -274,7 +274,7 @@ public class Main {
         System.out.println("5. Tracking Issue");
         System.out.print("Enter issue: ");
         try {
-            int choice = Integer.parseInt(scanner.nextLine());
+            int choice = Integer.parseInt(sc.nextLine());
             switch (choice) {
                 case 1:
                     return "Late Delivery";
