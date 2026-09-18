@@ -1,64 +1,34 @@
 package com.customeranalytics.model;
-public class Complaint {
-    private int complaintId;
+public class Customer {  //basic information about the customer
     private int customerId;
-    private String category;
-    private String issue;
+    private String name;
+    private String email;
+    private String phone;
 
-    private String status;
-    private String priority;
-    private double resolutionTime;
-
-    public Complaint(int complaintId, int customerId, String category, String issue) {
-        this.complaintId = complaintId;
+    public Customer(int customerId, String name, String email, String phone) {  //constructor used to create a new customer
         this.customerId = customerId;
-        this.category = category;
-        this.issue = issue;
+        this.name = name;
+        this.email = email;
+        this.phone = phone;
+    }
 
-        status = "Pending";
-        priority = "Normal";
-        resolutionTime = 0;
-    }
-// getters
-    public int getComplaintId() {
-        return complaintId;
-    }
-    public int getCustomerId() {
+    public int getCustomerId() {  //to access customer details
         return customerId;
     }
-    public String getCategory() {
-        return category;
+    public String getName() {
+        return name;
     }
-    public String getIssue() {
-        return issue;
+    public String getEmail() {
+        return email;
     }
-    public String getStatus() {
-        return status;
-    }
-    public String getPriority() {
-        return priority;
-    }
-    public double getResolutionTime() {
-        return resolutionTime;
-    }
-    // Setters
-    public void setStatus(String status) {
-        this.status = status;
-    }
-    public void setPriority(String priority) {  //priority assignment
-        this.priority = priority;
-    }
-    public void setResolutionTime(double resolutionTime) {  // time-taken for resolvment
-        this.resolutionTime = resolutionTime;
+    public String getPhone() {
+        return phone;
     }
 
-    public void displayComplaint() {  //displays the current information of the complaint
-        System.out.println("Complaint ID: " + complaintId);
+    public void displayCustomer() {
         System.out.println("Customer ID: " + customerId);
-        System.out.println("Category: " + category);
-        System.out.println("Issue: " + issue);
-        System.out.println("Status: " + status);
-        System.out.println("Priority: " + priority);
-        System.out.println("Resolution Time: " + resolutionTime + " hours");
+        System.out.println("Name: " + name);
+        System.out.println("Email: " + email);
+        System.out.println("Phone: " + phone);
     }
 }
